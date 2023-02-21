@@ -1,0 +1,39 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+html ,body{
+    height: 100%;
+    width: 100%;
+}
+#wrapper
+{   
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card
+{
+    width: 300px;
+    height: 250px;
+    background: url(https://th.bing.com/th/id/R.12bb684d862ec3ec6858ea358338a6df?rik=zd43bZFp9O287A&riu=http%3a%2f%2fcdn.mos.cms.futurecdn.net%2fA7Vv5WJSuJekWpuPxczQZg.jpg&ehk=6yaFmpeKEPmoX0X84LYA7APKexUMW2koi%2fmEhmq2PqQ%3d&risl=&pid=ImgRaw&r=0)
+    center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: rotate(-20deg) skew(-15deg ,-5deg);
+}
+.card:hover{
+    translate: 0px -30px;
+    box-shadow: 5px 3px rgba(217 220 242/75%);
+    box-shadow: 10px 6px rgba(44, 217, 255/50%);
+    box-shadow: 15px 9px rgba(126 255 178/25%)
+    
+}
